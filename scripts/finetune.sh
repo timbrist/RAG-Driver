@@ -1,19 +1,23 @@
 # !/bin/
 #####################
 DATA_ROOT="video_process"
-HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=0 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 deepspeed llava/train/train_mem.py \
-    --deepspeed ./scripts/zero3_offload.json \
-    --output_dir ./checkpoints/Video-LLaVA-7B_RAGDRIVER \
-    --model_name_or_path ./checkpoints/Video-LLaVA-7B \
+export WORKSPACE=/home/yan/projects/RAG-Driver
+export DATA_ROOT=${WORKSPACE}/video_process
+export MODELS_ROOT=${WORKSPACE}/models
+
+HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=0 CUDA_VISIBLE_DEVICES=0 deepspeed ${WORKSPACE}/llava/train/train_mem.py \
+    --deepspeed ${WORKSPACE}/scripts/zero3_offload.json \
+    --output_dir ${MODELS_ROOT}/Video-LLaVA-7B_RAGDRIVER \
+    --model_name_or_path ${MODELS_ROOT}/checkpoints/Video-LLaVA-7B \
     --version v1 \
     --train_data_path video_process/final/conversation_bddx_train.json \
     --eval_data_path video_process/final/conversation_bddx_eval.json \
     --video_folder ${DATA_ROOT} \
     --image_folder ${DATA_ROOT} \
     --X "Video" "Image" \
-    --video_tower ./cache_dir/LanguageBind_Video_merge \
-    --image_tower ./cache_dir/LanguageBind_Image \
-    --pretrain_mm_mlp_adapter checkpoints/Video-LLaVA-Pretrain-7B/mm_projector.bin \
+    --video_tower ${MODELS_ROOT}/LanguageBind_Video_merge \
+    --image_tower ${MODELS_ROOT}/LanguageBind_Image \
+    --pretrain_mm_mlp_adapter ${MODELS_ROOT}/Video-LLaVA-Pretrain-7B/mm_projector.bin \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
     --mm_use_x_start_end False \
@@ -40,7 +44,7 @@ HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=0 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,
     --dataloader_num_workers 4 \
     --lazy_preprocess True \
     --report_to tensorboard \
-    --cache_dir "./cache_dir"
+    --cache_dir "${WORKSPACE}/cache_dir"
 
 echo "Finished 1"
 
