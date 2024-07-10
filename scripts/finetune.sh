@@ -1,7 +1,9 @@
 # !/bin/
 #####################
+
 DATA_ROOT="video_process"
 export WORKSPACE=/home/yan/projects/RAG-Driver
+export PYTHONPATH=${WORKSPACE}:$PYTHONPATH
 export DATA_ROOT=${WORKSPACE}/video_process
 export MODELS_ROOT=${WORKSPACE}/models
 
