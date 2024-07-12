@@ -7,5 +7,12 @@ export WORKSPACE=$(pwd)
 envsubst < environment.template.yml > rag_env.yml
 
 # Create the conda environment
-conda-containerize new --prefix ./rag_env rag_env.yml
+module load tykky
+conda-containerize new --prefix ${WORKSPACE}/rag_env rag_env.yml 
+
+
+# install the rest of the packages 
+module gcc/10.4.0 cuda/12.1.1 
+conda-containerize update --post-install ${WORKSPACE}/restpackages.sh ${WORKSPACE}/rag_env
+
 

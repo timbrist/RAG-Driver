@@ -21,6 +21,8 @@ This repository only focus on implementing the program on cluster: [CSC](https:/
 
 ## Installation
 
+**NOTE**: The virtual environment require load 2 modules: tykky and cuda. 
+Please check the **create_rag_env.sh** file to make sure the version of cuda is above 11.7
 
 ```bash 
 git clone https://github.com/timbrist/RAG-Driver.git
@@ -28,14 +30,6 @@ cd RAG-Driver
 export CW_DEBUG_KEEP_FILES=${pwd}
 module load tykky
 bash create_rag_env.sh
-```
-
-After the installation, we need to add additional package.
-The reason to do it sperately is because [tykky]() can not install ```pip install flash-attn --no-build-isolation ``` and can not use extra parameter to create new environment.
-
-```bash 
-module gcc/10.4.0 cuda/12.1.1 
-conda-containerize update --post-install restpackages.sh ./rag_env
 ```
 
 
