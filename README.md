@@ -69,14 +69,15 @@ Then run the following command:
 bash get_bddx_dataset.sh
 ```
 
-## Usage
+## Usage 
+
+Cannot find a way to automate the process. 
+A lot of things need to config in this step.
 
 **NOTE**: Please remember to change:  \
 MODELS_DIR in scripts/finetune.sh 
-WORKSPACE  in scripts/finetune.sh to 
 CACHESPACE in run_rag.sh and test_rag.sh
 ```--account=<project> ``` specify your project name such as project_2010795
-
 
 the script is follow the exmaple on [Puhti](https://docs.csc.fi/computing/running/example-job-scripts-puhti/)
 ### Testing 
