@@ -2,6 +2,7 @@
 #####################
 
 export WORKSPACE=/projappl/project_2010633/RAG-Driver
+
 export PYTHONPATH=${WORKSPACE}:$PYTHONPATH
 export DATA_ROOT=${WORKSPACE}/
 export VIDEO_LLAVA_ROOT=/scratch/project_2010633/videollava_cache

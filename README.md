@@ -46,6 +46,19 @@ First, we need to create the conversation dataset.
 And second, we move the data to project workspace, because the file: BDDX_RAG_hybird_vpmatch.json using the relative path.
 Later, I want to update every path to absolute path. 
 
+
+### Download checkpoint models
+
+This step is for people who cannot use git lfs to download files from hugginface. 
+This script will automatically download the checkpoint models.
+
+```bash
+bash download.sh
+```
+**Please rememeber to change to your one work space** export WORKSPACE=/projappl/project_2010633/RAG-Driver
+
+### Create Conversation Data
+
 ```bash
 cd video_process
 python create_bddx_json.py

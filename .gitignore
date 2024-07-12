@@ -3,4 +3,5 @@ video_process/*
 BDDX_Processed/*
 BDDX_Test/*
 
+# Ignore all .pyc files
 *.pyc
