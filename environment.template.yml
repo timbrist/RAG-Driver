@@ -7,5 +7,5 @@ dependencies:
   - pip
   - pip: 
     - pip==24.1
-    - -e ${pwd}
-    - -e "${pwd}/[train]"
+    - -e ${WORKSPACE}
+    - -e ${WORKSPACE}/[train]
