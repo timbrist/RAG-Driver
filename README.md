@@ -1,7 +1,7 @@
 # RAG-Driver
 
 The original repository is [here](https://github.com/YuanJianhao508/RAG-Driver); 
-Thank you for [YuanJianhao508](https://github.com/YuanJianhao508) doing such amazing work.
+Thank [YuanJianhao508](https://github.com/YuanJianhao508) for doing such amazing work.
 
 This repository only focus on implementing the program on cluster: [CSC](https://github.com/CSCfi)
 
