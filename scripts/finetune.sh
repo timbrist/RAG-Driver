@@ -5,22 +5,24 @@
 export WORKSPACE=${pwd}
 
 export PYTHONPATH=${WORKSPACE}:$PYTHONPATH
-export DATA_ROOT=${WORKSPACE}/
-export VIDEO_LLAVA_ROOT=/scratch/project_2010633/videollava_cache
+export DATA_ROOT=${WORKSPACE}/video_process
+
+# Please Change this directory to the checkpoint models directory
+export MODELS_DIR=/scratch/project_2010633/videollava_cache
 
 HF_DATASETS_OFFLINE=1 TRANSFORMERS_OFFLINE=0 CUDA_VISIBLE_DEVICES=0 deepspeed ${WORKSPACE}/llava/train/train_mem.py \
     --deepspeed ${WORKSPACE}/scripts/zero3_offload.json \
-    --output_dir ${VIDEO_LLAVA_ROOT}/Video-LLaVA-7B_RAGDRIVER \
-    --model_name_or_path ${VIDEO_LLAVA_ROOT}/Video-LLaVA-7B \
+    --output_dir ${MODELS_DIR}/Video-LLaVA-7B_RAGDRIVER \
+    --model_name_or_path ${MODELS_DIR}/Video-LLaVA-7B \
     --version v1 \
     --train_data_path ${WORKSPACE}/video_process/conv_base/conversation_bddx_train.json \
     --eval_data_path ${WORKSPACE}/video_process/conv_base/conversation_bddx_eval.json \
     --video_folder ${DATA_ROOT} \
     --image_folder ${DATA_ROOT} \
     --X "Video" "Image" \
-    --video_tower ${VIDEO_LLAVA_ROOT}/LanguageBind_Video_merge \
-    --image_tower ${VIDEO_LLAVA_ROOT}/LanguageBind_Image \
-    --pretrain_mm_mlp_adapter ${VIDEO_LLAVA_ROOT}/Video-LLaVA-Pretrain-7B/mm_projector.bin \
+    --video_tower ${MODELS_DIR}/LanguageBind_Video_merge \
+    --image_tower ${MODELS_DIR}/LanguageBind_Image \
+    --pretrain_mm_mlp_adapter ${MODELS_DIR}/Video-LLaVA-Pretrain-7B/mm_projector.bin \
     --mm_projector_type mlp2x_gelu \
     --mm_vision_select_layer -2 \
     --mm_use_x_start_end False \

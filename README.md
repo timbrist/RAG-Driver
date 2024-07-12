@@ -44,14 +44,6 @@ conda-containerize update --post-install restpackages.sh ./rag_env
 
 ## Data Preparation
 
-Processed Version of BDD-X is available from [here](https://drive.google.com/file/d/14a3QTkWRelAZs-kW_2U5tjYcAm2l8VbF/view)
-
-**Please unzip the file into video_process folder**
-
-First, we need to create the conversation dataset. 
-And second, we move the data to project workspace, because the file: BDDX_RAG_hybird_vpmatch.json using the relative path.
-Later, I want to update every path to absolute path. 
-
 
 ### Download checkpoint models
 
@@ -62,8 +54,19 @@ This script will automatically download the checkpoint models.
 If you don't have much space in current directory, please change **MODELS_DIR** in download.sh to desired diretory:
 export MODELS_DIR=path/to/models. In this case, you will have to specify your model path in scripts/finetune.sh too.
 
+```bash
+bash download.sh
+```
 
-**Please rememeber to change to your one work space** export WORKSPACE=/projappl/project_2010633/RAG-Driver
+### Download processed BDD-X dataset 
+
+Processed Version of BDD-X is available from [here](https://drive.google.com/file/d/14a3QTkWRelAZs-kW_2U5tjYcAm2l8VbF/view)
+
+**Please unzip the file into video_process folder**
+
+First, we need to create the conversation dataset. 
+And second, we move the data to project workspace, because the file: BDDX_RAG_hybird_vpmatch.json using the relative path.
+Later, I want to update every path to absolute path. 
 
 ### Create Conversation Data
 
@@ -75,7 +78,12 @@ mv video_process/BDD_Processed ./BDD_Processed
 mv video_process/BDD_Test ./BDD_Test
 ```
 
-## Testing 
+## Usage
+
+**NOTE**: If you change the checkpoint models directory, please remember to change 
+MODELS_DIR in scripts/finetune.sh too.
+
+### Testing 
 We will testing if everything will be ok before we submitted to expensive GPU Cluster. 
 
 ```bash
@@ -83,7 +91,7 @@ sbatch test_rag.sh
 tail -f slurm-*
 ```
 
-## Finetuning
+### Finetuning
 
 ```bash
 sbatch run_rag.sh
