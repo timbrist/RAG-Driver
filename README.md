@@ -23,6 +23,7 @@ This repository only focus on implementing the program on cluster: [CSC](https:/
 
 ```bash 
 git clone https://github.com/timbrist/RAG-Driver.git
+cd RAG-Driver
 module load tykky
 conda-containerize new --prefix ./rag_env rag_env.yml
 ```
