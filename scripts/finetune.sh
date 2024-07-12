@@ -1,7 +1,8 @@
 # !/bin/
 #####################
 
-export WORKSPACE=/projappl/project_2010633/RAG-Driver
+# export WORKSPACE=/projappl/project_2010633/RAG-Driver
+export WORKSPACE=${pwd}
 
 export PYTHONPATH=${WORKSPACE}:$PYTHONPATH
 export DATA_ROOT=${WORKSPACE}/

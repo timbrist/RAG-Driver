@@ -22,16 +22,24 @@ This repository only focus on implementing the program on cluster: [CSC](https:/
 ## Installation
 
 **NOTE**: The virtual environment require load 2 modules: tykky and cuda. 
-Please check the **create_rag_env.sh** file to make sure the version of cuda is above 11.7
 
 ```bash 
 git clone https://github.com/timbrist/RAG-Driver.git
-cd RAG-Driver
+cd RAG-Driver # we will continue use this folder as WORKSPACE, This will be the only change directory of all.
 export CW_DEBUG_KEEP_FILES=${pwd}
-module load tykky
 bash create_rag_env.sh
 ```
 
+After the installation, we need to add additional package.
+The reason to do it sperately is because [tykky]() can not install ```pip install flash-attn --no-build-isolation ``` and can not use extra parameter to create new environment.
+
+Please check the **create_rag_env.sh** file to make sure the version of cuda is above 11.7
+
+```bash 
+module spider cuda #use this to check which cuda your system support 
+module gcc/10.4.0 cuda/12.1.1 
+conda-containerize update --post-install restpackages.sh ./rag_env
+```
 
 ## Data Preparation
 
@@ -49,6 +57,7 @@ Later, I want to update every path to absolute path.
 This step is for people who cannot use git lfs to download files from hugginface. 
 This script will automatically download the checkpoint models.
 
+**NOTE**: If you don't have much space in current directory, please change the cache directory 
 ```bash
 bash download.sh
 ```

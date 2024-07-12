@@ -7,12 +7,11 @@
 #SBATCH --ntasks=8
 #SBATCH --cpus-per-task=32
 #SBATCH --gres=gpu:a100:4
-
-# export PATH="/projappl/project_2010633/Video-LLaVA/videollava_evn/bin:$PATH"
-export WORKSPACE=/projappl/project_2010633
+# export WORKSPACE=/projappl/project_2010633
+export WORKSPACE=$(pwd)
 export CACHESPACE=/scratch/project_2010633
 
-export PATH=${WORKSPACE}/RAG-Driver/rag_env/bin:$PATH
+export PATH=${WORKSPACE}/rag_env/bin:$PATH
 export HF_DATASETS_CACHE=${CACHESPACE}/videollava_cache
 export XDG_CACHE_HOME=${CACHESPACE}/videollava_cache
 export PIP_CACHE_DIR=${CACHESPACE}/videollkava_cache

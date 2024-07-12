@@ -1,7 +1,7 @@
 # This script only for those who can't not use git lfs on cluster 
 
-
-export WORKSPACE=/projappl/project_2010633/RAG-Driver
+# export WORKSPACE=/projappl/project_2010633/RAG-Driver
+export WORKSPACE=$(pwd)
 
 
 export VIDEO_LLAVA=${WORKSPACE}/models/Video-LLaVA-7B
