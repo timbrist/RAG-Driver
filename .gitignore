@@ -1,2 +1,4 @@
 models/*
 video_process/*
+
+*.pyc
