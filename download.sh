@@ -12,10 +12,10 @@ export LANGUAGEBIN_VIDEO=${MODELS_DIR}/LanguageBind_Video_merge
 export LANGUAGEBIN_IMAGE=${MODELS_DIR}/LanguageBind_Image
 
 #Download the checkpoint from hugginface without large file
-GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/Video-LLaVA-7B ${VIDEO_LLAVA}
-GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/Video-LLaVA-Pretrain-7B ${VIDEO_LLAVA_PRETRAIN}
-GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/LanguageBind_Video_merge ${LANGUAGEBIN_VIDEO}
-GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/LanguageBind_Image ${LANGUAGEBIN_IMAGE}
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/Video-LLaVA-7B ${MODELS_DIR}
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/Video-LLaVA-Pretrain-7B ${MODELS_DIR}
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/LanguageBind_Video_merge ${MODELS_DIR}
+GIT_LFS_SKIP_SMUDGE=1 git clone https://huggingface.co/LanguageBind/LanguageBind_Image ${MODELS_DIR}
 
 sleep 3s # Waits 3 seconds.
 
