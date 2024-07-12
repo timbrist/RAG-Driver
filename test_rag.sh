@@ -14,14 +14,13 @@
 
 # export WORKSPACE=/projappl/project_2010633
 export WORKSPACE=$(pwd)
-export CACHESPACE=/scratch/project_2010633
+export CACHESPACE=/scratch/project_2010633/cache
 
 export PATH=${WORKSPACE}/rag_env/bin:$PATH
-
-export HF_DATASETS_CACHE=${CACHESPACE}/videollava_cache
-export XDG_CACHE_HOME=${CACHESPACE}/videollava_cache
-export PIP_CACHE_DIR=${CACHESPACE}/videollkava_cache
-export TRANSFORMERS_CACHE=${CACHESPACE}/videollava_cache
-export HF_HOME=${CACHESPACE}/videollava_cache
+export HF_DATASETS_CACHE=${CACHESPACE}
+export XDG_CACHE_HOME=${CACHESPACE}
+export PIP_CACHE_DIR=${CACHESPACE}
+export TRANSFORMERS_CACHE=${CACHESPACE}
+export HF_HOME=${CACHESPACE}
 
 bash ${WORKSPACE}/scripts/finetune.sh
