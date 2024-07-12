@@ -71,9 +71,14 @@ bash get_bddx_dataset.sh
 
 ## Usage
 
-**NOTE**: If you change the checkpoint models directory, please remember to change 
-MODELS_DIR in scripts/finetune.sh too.
+**NOTE**: Please remember to change:  \
+MODELS_DIR in scripts/finetune.sh 
+WORKSPACE  in scripts/finetune.sh to 
+CACHESPACE in run_rag.sh and test_rag.sh
+```--account=<project> ``` specify your project name such as project_2010795
 
+
+the script is follow the exmaple on [Puhti](https://docs.csc.fi/computing/running/example-job-scripts-puhti/)
 ### Testing 
 We will testing if everything will be ok before we submitted to expensive GPU Cluster. 
 
