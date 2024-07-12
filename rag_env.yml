@@ -7,5 +7,5 @@ dependencies:
   - pip
   - pip: 
     - pip==24.1
-    - -e /projappl/project_2010633/RAG-Driver
-    - -e "/projappl/project_2010633/RAG-Driver/[train]"
+    - -e ${pwd}
+    - -e "${pwd}/[train]"
