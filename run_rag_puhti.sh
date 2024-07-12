@@ -1,15 +1,18 @@
 #!/bin/bash
 #SBATCH --job-name=ragdriver
-#SBATCH --account=project_2010633
-#SBATCH --partition=gpumedium
+#SBATCH --account=<project>
+#SBATCH --partition=gpu
 #SBATCH --time=15:00:00
-#SBATCH --nodes=2
-#SBATCH --ntasks=8
-#SBATCH --cpus-per-task=32
-#SBATCH --gres=gpu:a100:4
+#SBATCH --ntasks=4
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=8000
+#SBATCH --gres=gpu:v100:4
+
+
 # export WORKSPACE=/projappl/project_2010633
 export WORKSPACE=$(pwd)
-export CACHESPACE=/scratch/project_2010633/cache
+
+export CACHESPACE=$(pwd)/cache
 
 export PATH=${WORKSPACE}/rag_env/bin:$PATH
 export HF_DATASETS_CACHE=${CACHESPACE}

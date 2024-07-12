@@ -1,20 +1,17 @@
 #!/bin/bash
 #SBATCH --job-name=ragdriver
-#SBATCH --account=project_2010633
-#SBATCH --partition=gpusmall
+#SBATCH --account=<project>
+#SBATCH --partition=gpu
 #SBATCH --time=00:10:00
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=32
-#SBATCH --gres=gpu:a100:1
-## if local fast disk on a node is also needed, replace above line with:
-#SBATCH --gres=gpu:a100:1,nvme:900
-#
-
-# export PATH="/projappl/project_2010633/Video-LLaVA/videollava_evn/bin:$PATH"
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=8000
+#SBATCH --gres=gpu:v100:1
 
 # export WORKSPACE=/projappl/project_2010633
 export WORKSPACE=$(pwd)
-export CACHESPACE=/scratch/project_2010633/cache
+
+export CACHESPACE=$(pwd)/cache
 
 export PATH=${WORKSPACE}/rag_env/bin:$PATH
 export HF_DATASETS_CACHE=${CACHESPACE}
