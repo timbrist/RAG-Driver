@@ -21,8 +21,8 @@ This repository only focus on implementing the program on cluster: [CSC](https:/
 
 ## Installation
 
-**NOTE**: The virtual environment require load 2 modules: tykky and cuda. 
 
+**NOTE**: The virtual environment require load 2 modules: tykky and cuda. 
 ```bash 
 git clone https://github.com/timbrist/RAG-Driver.git
 cd RAG-Driver # we will continue use this folder as WORKSPACE, This will be the only change directory of all.
@@ -31,15 +31,16 @@ bash create_rag_env.sh
 ```
 
 After the installation, we need to add additional package.
-The reason to do it sperately is because [tykky]() can not install ```pip install flash-attn --no-build-isolation ``` and can not use extra parameter to create new environment.
+The reason to do it sperately is because [tykky](https://docs.csc.fi/computing/containers/tykky/) can not install ```pip install flash-attn --no-build-isolation ``` and can not use extra parameter to create new environment.
 
 Please check the **create_rag_env.sh** file to make sure the version of cuda is above 11.7
 
 ```bash 
-module spider cuda #use this to check which cuda your system support 
-module gcc/10.4.0 cuda/12.1.1 
+module spider cuda #use this to check which cuda your system support, use cuda/11.7+ please.
+module cuda 
 conda-containerize update --post-install restpackages.sh ./rag_env
 ```
+
 
 ## Data Preparation
 
@@ -57,10 +58,11 @@ Later, I want to update every path to absolute path.
 This step is for people who cannot use git lfs to download files from hugginface. 
 This script will automatically download the checkpoint models.
 
-**NOTE**: If you don't have much space in current directory, please change the cache directory 
-```bash
-bash download.sh
-```
+**NOTE**: The checkpoint models will take up at least: 46GB. 
+If you don't have much space in current directory, please change **MODELS_DIR** in download.sh to desired diretory:
+export MODELS_DIR=path/to/models. In this case, you will have to specify your model path in scripts/finetune.sh too.
+
+
 **Please rememeber to change to your one work space** export WORKSPACE=/projappl/project_2010633/RAG-Driver
 
 ### Create Conversation Data
@@ -73,6 +75,13 @@ mv video_process/BDD_Processed ./BDD_Processed
 mv video_process/BDD_Test ./BDD_Test
 ```
 
+## Testing 
+We will testing if everything will be ok before we submitted to expensive GPU Cluster. 
+
+```bash
+sbatch test_rag.sh
+tail -f slurm-*
+```
 
 ## Finetuning
 

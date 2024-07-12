@@ -4,7 +4,7 @@
 export WORKSPACE=$(pwd)
 
 # Please change this directory to save the models on wherever you want. 
-export MODELS_DIR=${WORKSPACE}/models
+export MODELS_DIR=$(pwd)/models
 
 export VIDEO_LLAVA=${MODELS_DIR}/Video-LLaVA-7B
 export VIDEO_LLAVA_PRETRAIN=${MODELS_DIR}/Video-LLaVA-Pretrain-7B
