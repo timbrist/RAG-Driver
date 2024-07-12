@@ -45,12 +45,16 @@ def get_car_info(car_info, predict_cs=False):
         
     context = f"The current video records driving scenario: <video>\n Control Signal until current Frame Sequence is: Speed: {speed}\n Curvature: {curvature}\n Acceleration: {acceleration}\n Course: {course}"
     return context, final_cs
-    
+
+
+import os
+WORKSPACE = os.getcwd()
+
 def main(split):
     if split == "train":
-        info_root = "./BDDX_Processed/info"
+        info_root = f"{WORKSPACE}/video_process/BDDX_Processed/info"
     elif split == "test":
-        info_root = "./BDDX_Test/info"
+        info_root = f"{WORKSPACE}/video_process/BDDX_Test/info"
         
     question_1 = '''What is the action of ego car?'''
     question_2 = '''Why does the ego car doing this?'''
@@ -62,10 +66,9 @@ def main(split):
     # strategy = 'visual'
 
     # match_path = f"../retrieval/BDDX_RAG_{strategy}_vpmatch_t9.json"
-    match_path = f"../retrieval/BDDX_RAG_tuned_vpmatch_t13.json"
-    id_info_path = "../retrieval/bddx_vpath_info_match.json"
+    match_path = f"{WORKSPACE}/retrieval/BDDX_RAG_tuned_vpmatch_t13.json"
+    id_info_path = f"{WORKSPACE}/retrieval/bddx_vpath_info_match.json"
 
-        
     if rag:
         with open(match_path,"r") as fm:
             match_dict = json.load(fm)
@@ -177,7 +180,7 @@ def main(split):
     
     
     sp = "train" if split == "train" else "eval"
-    out_dir ="./conv_base"
+    out_dir = f"{WORKSPACE}/video_process/conv_base"
     os.makedirs(out_dir,exist_ok=True)
     out_path = f'{out_dir}/conversation_bddx_{sp}.json'
     

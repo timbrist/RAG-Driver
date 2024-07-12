@@ -62,20 +62,11 @@ bash download.sh
 
 Processed Version of BDD-X is available from [here](https://drive.google.com/file/d/14a3QTkWRelAZs-kW_2U5tjYcAm2l8VbF/view)
 
-**Please unzip the file into video_process folder**
+**If you want to download the dataset manually, Please unzip the file into video_process folder**
 
-First, we need to create the conversation dataset. 
-And second, we move the data to project workspace, because the file: BDDX_RAG_hybird_vpmatch.json using the relative path.
-Later, I want to update every path to absolute path. 
-
-### Create Conversation Data
-
+Then run the following command: 
 ```bash
-cd video_process
-python create_bddx_json.py
-cd ..
-mv video_process/BDD_Processed ./BDD_Processed
-mv video_process/BDD_Test ./BDD_Test
+bash get_bddx_dataset.sh
 ```
 
 ## Usage

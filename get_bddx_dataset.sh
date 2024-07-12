@@ -13,6 +13,17 @@ else
     echo "File already exists. Skipping download."
 fi
 
-tar -xf ./video_process/video_process.tar.gz -C ./video_process/
-mv ./video_process/video_process/* ./video_process/ 
-rm -r ./video_process/video_process/
+# Check if BDDX_Processed and BDDX_Test folder exist
+BDDX_Processed="${WORKSPACE}/video_process/BDDX_Processed"
+BDDX_Test="${WORKSPACE}/video_process/BDDX_Test"
+if [! -d "BDDX_Processed" ]; then 
+    echo "File already exists. Skipping extract."
+else
+    echo "extract video_process.tar.gz"
+    tar -xf "FILE" -C ${WORKSPACE}/video_process/
+    mv ${WORKSPACE}/video_process/video_process/* ${WORKSPACE}/video_process/ 
+fi
+
+
+export PATH=${WORKSPACE}/rag_env/bin:$PATH
+python ${WORKSPACE}/video_process/create_bddx_json.py
