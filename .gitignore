@@ -1,4 +1,6 @@
 models/*
 video_process/*
+BDDX_Processed/*
+BDDX_Test/*
 
 *.pyc
