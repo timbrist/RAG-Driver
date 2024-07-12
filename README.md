@@ -27,7 +27,7 @@ git clone https://github.com/timbrist/RAG-Driver.git
 cd RAG-Driver
 export CW_DEBUG_KEEP_FILES=${pwd}
 module load tykky
-bash reate_rag_env.sh
+bash create_rag_env.sh
 ```
 
 After the installation, we need to add additional package.
