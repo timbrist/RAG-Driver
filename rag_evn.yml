@@ -1,0 +1,11 @@
+name: ragdriver
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10 
+  - pip
+  - pip: 
+    - pip==24.1
+    - -e /projappl/project_2010633/RAG-Driver
+    - -e "/projappl/project_2010633/RAG-Driver/[train]"
