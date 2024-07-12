@@ -16,7 +16,7 @@ fi
 # Check if BDDX_Processed and BDDX_Test folder exist
 BDDX_Processed="${WORKSPACE}/video_process/BDDX_Processed"
 BDDX_Test="${WORKSPACE}/video_process/BDDX_Test"
-if [! -d "BDDX_Processed" ]; then 
+if [ -d "$BDDX_Processed" ]; then 
     echo "File already exists. Skipping extract."
 else
     echo "extract video_process.tar.gz"
