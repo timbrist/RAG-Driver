@@ -36,7 +36,7 @@ def load_image(image_file):
 def main(args):
     # Questions:
 
-    json_file = args.input
+    json_file = args.input  # conversation_bddx_eval.json
     os.makedirs(args.output, exist_ok=True)
     out_json_paths = [f"{args.output}/BDDX_Test_pred_{cap}.json" for cap in ['action','justification','control_signal']]
     
@@ -62,7 +62,7 @@ def main(args):
 
     # gt
     with open(json_file, 'r') as file:
-        data = json.load(file)
+        data = json.load(file)          # data from conversation_bddx_eval.json
 
     # Pred
     out_jsons = [[],[],[]]
@@ -80,7 +80,9 @@ def main(args):
         video_paths = [os.path.join("./video_process",vp) for vp in vps]
 
         
-        video_tensor = [video_processor(video_path, return_tensors='pt')['pixel_values'] for video_path in video_paths]
+        # This line of code will cause :ValueError: too many values to unpack (expected 4)  see: https://github.com/YuanJianhao508/RAG-Driver/issues/11
+        # video_tensor = [video_processor(video_path, return_tensors='pt')['pixel_values'] for video_path in video_paths]
+        video_tensor = [video_processor.preprocess(video_path, return_tensors='pt')['pixel_values'][0].half().to(args.device) for video_path in video_paths]
         if type(video_tensor) is list:
             tensor = [[video.to(model.device, dtype=torch.float16) for video in video_tensor]]
         else:
