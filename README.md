@@ -27,7 +27,7 @@ This repository only focus on implementing the program on cluster: [CSC](https:/
 git clone https://github.com/timbrist/RAG-Driver.git
 cd RAG-Driver # we will continue use this folder as WORKSPACE, This will be the only change directory of all.
 export CW_DEBUG_KEEP_FILES=${pwd}
-bash create_rag_env.sh
+bash rag_env/create_rag_env.sh
 ```
 
 After the installation, we need to add additional package.
@@ -38,7 +38,7 @@ Please check the **create_rag_env.sh** file to make sure the version of cuda is 
 ```bash 
 module spider cuda #use this to check which cuda your system support, use cuda/11.7+ please.
 module cuda 
-conda-containerize update --post-install restpackages.sh ./rag_env
+conda-containerize update --post-install rag_env/restpackages.sh ./rag_env
 ```
 
 
@@ -55,7 +55,7 @@ If you don't have much space in current directory, please change **MODELS_DIR** 
 export MODELS_DIR=path/to/models. In this case, you will have to specify your model path in scripts/finetune.sh too.
 
 ```bash
-bash download.sh
+bash models/download.sh
 ```
 
 ### Download processed BDD-X dataset 
@@ -66,7 +66,7 @@ Processed Version of BDD-X is available from [here](https://drive.google.com/fil
 
 Then run the following command: 
 ```bash
-bash get_bddx_dataset.sh
+bash video_process/download_bdd.sh
 ```
 
 ## Usage 
@@ -84,14 +84,14 @@ the script is follow the exmaple on [Puhti](https://docs.csc.fi/computing/runnin
 We will testing if everything will be ok before we submitted to expensive GPU Cluster. 
 
 ```bash
-sbatch test_rag.sh
+sbatch ./slurm_jobs/test_rag.sh
 tail -f slurm-*
 ```
 
 ### Finetuning
 
 ```bash
-sbatch run_rag.sh
+sbatch ./slurm_jobs/run_rag.sh
 tail -f slurm-*
 ```
 
