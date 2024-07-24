@@ -1,7 +1,7 @@
 models/*
-video_process/*
-BDDX_Processed/*
-BDDX_Test/*
+video_process/video_process.tar.gz
+video_process/BDDX_Processed
+video_process/BDDX_Test
 
 # Ignore all .pyc files
 *.pyc

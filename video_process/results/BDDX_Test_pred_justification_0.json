@@ -1,0 +1,2130 @@
+[
+    {
+        "image_id": "1048",
+        "caption": "because there are no nearby cars in its lane."
+    },
+    {
+        "image_id": "1474",
+        "caption": "because the car in front of it is stopped."
+    },
+    {
+        "image_id": "980",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1456",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "1998",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1414",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "128",
+        "caption": "because it is waiting for a car to move out of the way."
+    },
+    {
+        "image_id": "1548",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "923",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "208",
+        "caption": "for the stop sign."
+    },
+    {
+        "image_id": "785",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "1175",
+        "caption": "because the light is green and there are no pedestrians crossing the street."
+    },
+    {
+        "image_id": "192",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "1084",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1043",
+        "caption": "Because it is preparing to make a a a right turn."
+    },
+    {
+        "image_id": "1002",
+        "caption": "because the driver is turning to the left."
+    },
+    {
+        "image_id": "881",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1281",
+        "caption": "because the driver wants to back up."
+    },
+    {
+        "image_id": "1055",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "143",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "798",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1974",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "2058",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1254",
+        "caption": "as traffic in front of it moves slowly."
+    },
+    {
+        "image_id": "64",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "176",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1598",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "1513",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "975",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "1408",
+        "caption": "because the light turned green."
+    },
+    {
+        "image_id": "1688",
+        "caption": "because the road is clear of traffic."
+    },
+    {
+        "image_id": "1742",
+        "caption": "so that it can get around the vehicle parked in its lane."
+    },
+    {
+        "image_id": "335",
+        "caption": "because the car in front of it is stopped."
+    },
+    {
+        "image_id": "1431",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "373",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "25",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "1827",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1413",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1504",
+        "caption": "because it is parked in a garage."
+    },
+    {
+        "image_id": "1091",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1875",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1618",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "16",
+        "caption": "because the road allows the car to stop."
+    },
+    {
+        "image_id": "14",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "662",
+        "caption": "because there are no cars on the road."
+    },
+    {
+        "image_id": "1653",
+        "caption": "so that it can enter another road."
+    },
+    {
+        "image_id": "1962",
+        "caption": "because the driver is turning to the right."
+    },
+    {
+        "image_id": "243",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1669",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "279",
+        "caption": "because there's a stop sign."
+    },
+    {
+        "image_id": "952",
+        "caption": "because the light is red"
+    },
+    {
+        "image_id": "1142",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "661",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1239",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "694",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1042",
+        "caption": "to avoid a car that is turning right."
+    },
+    {
+        "image_id": "390",
+        "caption": "because it is leaving the plaza."
+    },
+    {
+        "image_id": "902",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "963",
+        "caption": "so that it can turn around."
+    },
+    {
+        "image_id": "277",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "1378",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1496",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "1523",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "451",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "559",
+        "caption": "as it approaches a stop sign."
+    },
+    {
+        "image_id": "970",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "875",
+        "caption": "because it's parking."
+    },
+    {
+        "image_id": "619",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "115",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "152",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "651",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1194",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1465",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "871",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1845",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "783",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1687",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1556",
+        "caption": "because it's waiting for the car in front to turn."
+    },
+    {
+        "image_id": "2070",
+        "caption": "because a pedestrian is walking on the road."
+    },
+    {
+        "image_id": "1120",
+        "caption": "as the road is clear."
+    },
+    {
+        "image_id": "122",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1343",
+        "caption": "to move into the road."
+    },
+    {
+        "image_id": "1178",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1480",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "958",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "802",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "752",
+        "caption": "because the car in front is stopping for a red light."
+    },
+    {
+        "image_id": "1853",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "592",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1295",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "1304",
+        "caption": "because the light turned yellow."
+    },
+    {
+        "image_id": "1939",
+        "caption": "because the car in front is accelerating."
+    },
+    {
+        "image_id": "1226",
+        "caption": "because the driver is pulling out."
+    },
+    {
+        "image_id": "127",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "111",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "204",
+        "caption": "because the light is green and traffic is moving normally."
+    },
+    {
+        "image_id": "1703",
+        "caption": "because traffic is speeding up."
+    },
+    {
+        "image_id": "1342",
+        "caption": "because it has reached it's destination"
+    },
+    {
+        "image_id": "516",
+        "caption": "because traffic is moving normally."
+    },
+    {
+        "image_id": "1320",
+        "caption": "so that it can enter another road."
+    },
+    {
+        "image_id": "1161",
+        "caption": "because it's pulling out of its parking space."
+    },
+    {
+        "image_id": "1921",
+        "caption": "because the driver is waiting for traffic to clear."
+    },
+    {
+        "image_id": "1914",
+        "caption": "because the driver is turning to the left."
+    },
+    {
+        "image_id": "878",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "710",
+        "caption": "because it's turning to the left."
+    },
+    {
+        "image_id": "1683",
+        "caption": "Because the traffic light is green and there are no cars ahead of it."
+    },
+    {
+        "image_id": "2004",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "17",
+        "caption": "because the road allows it."
+    },
+    {
+        "image_id": "1988",
+        "caption": "because the road allows it."
+    },
+    {
+        "image_id": "2097",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "207",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "955",
+        "caption": "because the light is green and traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1325",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1290",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1157",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "87",
+        "caption": "Because the traffic light at the upcoming intersection is from the left lane to the right lane to the left again."
+    },
+    {
+        "image_id": "1880",
+        "caption": "because the driver is turning to the right."
+    },
+    {
+        "image_id": "1230",
+        "caption": "because the car in front is accelerating."
+    },
+    {
+        "image_id": "1765",
+        "caption": "because the traffic is moving."
+    },
+    {
+        "image_id": "1606",
+        "caption": "because the driver is waiting for something."
+    },
+    {
+        "image_id": "18",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "617",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "92",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1190",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "1310",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "182",
+        "caption": "because there is a stop sign."
+    },
+    {
+        "image_id": "1271",
+        "caption": "because it's going over a speed bump"
+    },
+    {
+        "image_id": "174",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "80",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1380",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1068",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "588",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "239",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1264",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "30",
+        "caption": "because traffic is slowing down"
+    },
+    {
+        "image_id": "709",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "632",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "449",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "290",
+        "caption": "to turn around."
+    },
+    {
+        "image_id": "848",
+        "caption": "to change streets"
+    },
+    {
+        "image_id": "793",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "305",
+        "caption": "to move back into the road."
+    },
+    {
+        "image_id": "717",
+        "caption": "because the car in front of it is stopped."
+    },
+    {
+        "image_id": "1766",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "2013",
+        "caption": "because the driver is continuing down the road."
+    },
+    {
+        "image_id": "1774",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "2108",
+        "caption": "because there is a stopped car ahead."
+    },
+    {
+        "image_id": "1251",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "920",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "293",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1370",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1682",
+        "caption": "because traffic is speeding up."
+    },
+    {
+        "image_id": "102",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "996",
+        "caption": "because the light turned green and it is raining."
+    },
+    {
+        "image_id": "1056",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1269",
+        "caption": "because it's going over a speed bump"
+    },
+    {
+        "image_id": "183",
+        "caption": "because it's turning to the left."
+    },
+    {
+        "image_id": "1980",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "768",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1866",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "2063",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "564",
+        "caption": "because the driver is pulling out."
+    },
+    {
+        "image_id": "1482",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "2120",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "898",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1207",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "23",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "542",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "594",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1909",
+        "caption": "because the bus in front of it is stopped."
+    },
+    {
+        "image_id": "1790",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1662",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1352",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "328",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "2109",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1489",
+        "caption": "because the driver has parked."
+    },
+    {
+        "image_id": "1353",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "897",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "510",
+        "caption": "because traffic is moving slowly."
+    },
+    {
+        "image_id": "1165",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1025",
+        "caption": "Because it is preparing to make a a a right turn."
+    },
+    {
+        "image_id": "1950",
+        "caption": "to enter another road."
+    },
+    {
+        "image_id": "1594",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "797",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "1713",
+        "caption": "because there is a pedestrian crossing the street."
+    },
+    {
+        "image_id": "1850",
+        "caption": "because it has no traffic."
+    },
+    {
+        "image_id": "995",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1387",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1883",
+        "caption": "Because the traffic light has turned green and the cars ahead of it are moving slowly."
+    },
+    {
+        "image_id": "493",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "273",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "959",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "124",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "140",
+        "caption": "because the driver wants to back up."
+    },
+    {
+        "image_id": "246",
+        "caption": "because there are no nearby cars in its lane."
+    },
+    {
+        "image_id": "154",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1949",
+        "caption": "because it's waiting for a car to move out of the way."
+    },
+    {
+        "image_id": "819",
+        "caption": "so that it may exit the road."
+    },
+    {
+        "image_id": "230",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1228",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "2104",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "157",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "1888",
+        "caption": "because the light turned green."
+    },
+    {
+        "image_id": "1776",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1714",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1410",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1127",
+        "caption": "because it's turning to the right."
+    },
+    {
+        "image_id": "1382",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1846",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "107",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "158",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "380",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "237",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "715",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "972",
+        "caption": "Because the traffic light at the upcoming intersection is green and there are no cars ahead of it."
+    },
+    {
+        "image_id": "95",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "1032",
+        "caption": "because the light turned yellow."
+    },
+    {
+        "image_id": "1011",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1049",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "1265",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "295",
+        "caption": "because traffic is moving slowly."
+    },
+    {
+        "image_id": "602",
+        "caption": "Because traffic is clear ahead of it."
+    },
+    {
+        "image_id": "1757",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1470",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1252",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "64",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "560",
+        "caption": "because there's a stop sign."
+    },
+    {
+        "image_id": "1460",
+        "caption": "because the light is green and traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "58",
+        "caption": "because traffic is moving forward."
+    },
+    {
+        "image_id": "1661",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "424",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "51",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1457",
+        "caption": "as traffic ahead is moving somewhat slowly."
+    },
+    {
+        "image_id": "868",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "653",
+        "caption": "due to traffic merging in front of it moving slowly."
+    },
+    {
+        "image_id": "5",
+        "caption": "because the light turned green."
+    },
+    {
+        "image_id": "186",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "863",
+        "caption": "because there's a stop sign"
+    },
+    {
+        "image_id": "993",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1229",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "232",
+        "caption": "as the lane ahead is clear."
+    },
+    {
+        "image_id": "477",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1600",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "587",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "893",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "639",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1926",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "1340",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "1477",
+        "caption": "because traffic is speeding up."
+    },
+    {
+        "image_id": "1660",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "621",
+        "caption": "Because the traffic light at the upcoming intersection is red and there are cars stopped in front of it."
+    },
+    {
+        "image_id": "1863",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1322",
+        "caption": "because there is a stop sign."
+    },
+    {
+        "image_id": "173",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "287",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1425",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "229",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "20",
+        "caption": "as traffic in front of it moves forward."
+    },
+    {
+        "image_id": "645",
+        "caption": "because the car in front of it is moving at a normal speed."
+    },
+    {
+        "image_id": "2016",
+        "caption": "because the driver wants to stop at the light."
+    },
+    {
+        "image_id": "1106",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "2111",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "683",
+        "caption": "because the light has changed to red"
+    },
+    {
+        "image_id": "994",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "1879",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "531",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1831",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "356",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1231",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "454",
+        "caption": "because the car in front is stopped."
+    },
+    {
+        "image_id": "964",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1035",
+        "caption": "because the light is green and there are no nearby vehicles in its lane."
+    },
+    {
+        "image_id": "647",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "771",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1849",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1441",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "801",
+        "caption": "because the driver wants to pull over."
+    },
+    {
+        "image_id": "155",
+        "caption": "because traffic has slowed down."
+    },
+    {
+        "image_id": "1622",
+        "caption": "because the driver has parked."
+    },
+    {
+        "image_id": "776",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1198",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1670",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "414",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1541",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1704",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "8",
+        "caption": "so that it can turn around."
+    },
+    {
+        "image_id": "2082",
+        "caption": "because traffic is moving normally."
+    },
+    {
+        "image_id": "415",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "1574",
+        "caption": "because the car in front of it is stopped."
+    },
+    {
+        "image_id": "214",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1215",
+        "caption": "because there is a red light ahead."
+    },
+    {
+        "image_id": "530",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1559",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "363",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1001",
+        "caption": "because it is parked in a plaza parking lot."
+    },
+    {
+        "image_id": "1596",
+        "caption": "because the driver is waiting for something."
+    },
+    {
+        "image_id": "1675",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "240",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "343",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "807",
+        "caption": "Because the traffic light at the upcoming intersection is from the left lane to the right lane is now green and it is approaching the intersection."
+    },
+    {
+        "image_id": "253",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1257",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1204",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1848",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "6",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1815",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "966",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "837",
+        "caption": "because the driver is turning to the right."
+    },
+    {
+        "image_id": "218",
+        "caption": "because the driver is pulling out."
+    },
+    {
+        "image_id": "2054",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1206",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1166",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "656",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "2112",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "620",
+        "caption": "because there is a car stopped in the lane ahead."
+    },
+    {
+        "image_id": "1081",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "358",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1059",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "791",
+        "caption": "because it has reached a stop sign."
+    },
+    {
+        "image_id": "1421",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1150",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1439",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1588",
+        "caption": "because the driver is waiting for traffic to clear."
+    },
+    {
+        "image_id": "1283",
+        "caption": "because the driver is turning to the right."
+    },
+    {
+        "image_id": "896",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "777",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1134",
+        "caption": "because the light turned green."
+    },
+    {
+        "image_id": "701",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1063",
+        "caption": "because the driver is turning to the right."
+    },
+    {
+        "image_id": "60",
+        "caption": "because there is no traffic in that lane."
+    },
+    {
+        "image_id": "2074",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "1982",
+        "caption": "Because the car has come out of the right turn and is now going straight with no traffic ahead of it."
+    },
+    {
+        "image_id": "919",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "360",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "448",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1026",
+        "caption": "because it's turning to the left."
+    },
+    {
+        "image_id": "1453",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1033",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "2036",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "285",
+        "caption": "because the car in front is stopping."
+    },
+    {
+        "image_id": "1429",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1261",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "2068",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "96",
+        "caption": "Because it has come out of the right turn and is now going straight with no traffic ahead of it."
+    },
+    {
+        "image_id": "134",
+        "caption": "because it has reached a stop sign"
+    },
+    {
+        "image_id": "177",
+        "caption": "because traffic is moving slowly."
+    },
+    {
+        "image_id": "1864",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1177",
+        "caption": "because the driver is getting ready to turn."
+    },
+    {
+        "image_id": "1580",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "909",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1960",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "1859",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1570",
+        "caption": "because the car in front of it is stopping."
+    },
+    {
+        "image_id": "1671",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "399",
+        "caption": "because it's waiting for a chance to turn."
+    },
+    {
+        "image_id": "1641",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1363",
+        "caption": "because it's turning to the left."
+    },
+    {
+        "image_id": "1786",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1869",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1152",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "2051",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "2088",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1442",
+        "caption": "because the light is red"
+    },
+    {
+        "image_id": "455",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "324",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "31",
+        "caption": "because traffic is stopped"
+    },
+    {
+        "image_id": "491",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "991",
+        "caption": "because the vehicle in front of it is stopped."
+    },
+    {
+        "image_id": "1156",
+        "caption": "because the car in front is braking."
+    },
+    {
+        "image_id": "2060",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1527",
+        "caption": "as the lane is clear and traffic is moving."
+    },
+    {
+        "image_id": "1255",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "409",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1672",
+        "caption": "because the light is red"
+    },
+    {
+        "image_id": "1855",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1967",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "39",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "699",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1658",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "2046",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1323",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "944",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "113",
+        "caption": "because it's turning to the right."
+    },
+    {
+        "image_id": "539",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1095",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1994",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "1069",
+        "caption": "Because the traffic light at the upcoming intersection is from the left lane to the right lane and is now going from the right lane to the left lane."
+    },
+    {
+        "image_id": "674",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1789",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1842",
+        "caption": "because the car in front is braking."
+    },
+    {
+        "image_id": "1473",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "297",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "256",
+        "caption": "because traffic is moving steadily."
+    },
+    {
+        "image_id": "1284",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "2092",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "744",
+        "caption": "because there is no traffic in that lane."
+    },
+    {
+        "image_id": "396",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "891",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1564",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1959",
+        "caption": "as traffic ahead is moving steadily."
+    },
+    {
+        "image_id": "109",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1416",
+        "caption": "as traffic in front of it moves forward."
+    },
+    {
+        "image_id": "82",
+        "caption": "because the driver wants to back up."
+    },
+    {
+        "image_id": "1191",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "956",
+        "caption": "The car is attempting to avoid traffic stopping ahead."
+    },
+    {
+        "image_id": "13",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1732",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1805",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "722",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1136",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1770",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "886",
+        "caption": "because the light has turned green."
+    },
+    {
+        "image_id": "1503",
+        "caption": "to move into a parking spot."
+    },
+    {
+        "image_id": "1535",
+        "caption": "so that it may turn around."
+    },
+    {
+        "image_id": "817",
+        "caption": "because there is a stopped car ahead."
+    },
+    {
+        "image_id": "779",
+        "caption": "because traffic is moving slowly."
+    },
+    {
+        "image_id": "1927",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1796",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "357",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1506",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1741",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1423",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "332",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1947",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "136",
+        "caption": "because there's a stop sign."
+    },
+    {
+        "image_id": "128",
+        "caption": "because there's a stop sign."
+    },
+    {
+        "image_id": "459",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1969",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "185",
+        "caption": "because there is a stop sign."
+    },
+    {
+        "image_id": "498",
+        "caption": "because traffic is stopped at a red light."
+    },
+    {
+        "image_id": "1376",
+        "caption": "because the light is red and pedestrians are crossing the street."
+    },
+    {
+        "image_id": "98",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "345",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1572",
+        "caption": "because the car in front is stopped."
+    },
+    {
+        "image_id": "187",
+        "caption": "for the stop sign."
+    },
+    {
+        "image_id": "1287",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "548",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "973",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1171",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "1702",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "1",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "151",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "169",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1217",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "518",
+        "caption": "because the light is changing from yellow to red"
+    },
+    {
+        "image_id": "353",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "153",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "786",
+        "caption": "because traffic is stopped ahead"
+    },
+    {
+        "image_id": "281",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1983",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "773",
+        "caption": "because there are no cars in its lane."
+    },
+    {
+        "image_id": "1569",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "1803",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1201",
+        "caption": "so that it can exit to another road."
+    },
+    {
+        "image_id": "180",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "474",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "1860",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "110",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "1508",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "33",
+        "caption": "because traffic is moving slowly."
+    },
+    {
+        "image_id": "907",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "120",
+        "caption": "because traffic is moving at a normal speed in the rain."
+    },
+    {
+        "image_id": "2106",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1823",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "488",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "471",
+        "caption": "Because the traffic light at the upcoming intersection is from the left lane to the right lane is now from the middle lane to the right lane."
+    },
+    {
+        "image_id": "1798",
+        "caption": "because traffic is stopped ahead"
+    },
+    {
+        "image_id": "149",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "795",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1458",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "586",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "22",
+        "caption": "because the car in front is slowing down."
+    },
+    {
+        "image_id": "162",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "2006",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "671",
+        "caption": "because there is a stop sign"
+    },
+    {
+        "image_id": "936",
+        "caption": "because the traffic light ahead turns red."
+    },
+    {
+        "image_id": "1821",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "89",
+        "caption": "because the traffic light turns green."
+    },
+    {
+        "image_id": "546",
+        "caption": "Because the traffic light at the upcoming intersection has turned from green to yellow to red."
+    },
+    {
+        "image_id": "36",
+        "caption": "because traffic is flowing freely."
+    },
+    {
+        "image_id": "1155",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "138",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "301",
+        "caption": "because the light turned green."
+    },
+    {
+        "image_id": "1218",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1253",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "693",
+        "caption": "because traffic is moving forward."
+    },
+    {
+        "image_id": "629",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "228",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "1551",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1573",
+        "caption": "because the car in front is stopped."
+    },
+    {
+        "image_id": "1571",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "585",
+        "caption": "as the road ahead is clear."
+    },
+    {
+        "image_id": "543",
+        "caption": "as traffic in front of it accelerates."
+    },
+    {
+        "image_id": "1736",
+        "caption": "because the car in front has stopped."
+    },
+    {
+        "image_id": "1595",
+        "caption": "because it is parked."
+    },
+    {
+        "image_id": "1772",
+        "caption": "as the area in front of the car moves forward."
+    },
+    {
+        "image_id": "233",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "685",
+        "caption": "as the lane ahead is clear."
+    },
+    {
+        "image_id": "1321",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "745",
+        "caption": "because there are no other cars in its lane."
+    },
+    {
+        "image_id": "1047",
+        "caption": "because the bus in front of it has stopped."
+    },
+    {
+        "image_id": "1216",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "278",
+        "caption": "Because the traffic light is green and there are no cars ahead of it."
+    },
+    {
+        "image_id": "286",
+        "caption": "because traffic has stopped."
+    },
+    {
+        "image_id": "892",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "525",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "407",
+        "caption": "because there are no other cars in its lane."
+    },
+    {
+        "image_id": "217",
+        "caption": "because it's waiting for a chance to turn."
+    },
+    {
+        "image_id": "393",
+        "caption": "to move into a parking space."
+    },
+    {
+        "image_id": "894",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1834",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "563",
+        "caption": "because there's a stop sign."
+    },
+    {
+        "image_id": "342",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "865",
+        "caption": "because the road is clear."
+    },
+    {
+        "image_id": "650",
+        "caption": "due to traffic merging in front of it moving slowly."
+    },
+    {
+        "image_id": "1367",
+        "caption": "because there are no other cars on the road."
+    },
+    {
+        "image_id": "135",
+        "caption": "because the driver is turning to the left."
+    },
+    {
+        "image_id": "1240",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "1631",
+        "caption": "because the lane is clear."
+    },
+    {
+        "image_id": "383",
+        "caption": "because traffic is moving at a normal speed."
+    },
+    {
+        "image_id": "1478",
+        "caption": "because the light is green."
+    },
+    {
+        "image_id": "1368",
+        "caption": "because there is no traffic coming."
+    },
+    {
+        "image_id": "1733",
+        "caption": "because the light turns green."
+    },
+    {
+        "image_id": "458",
+        "caption": "because traffic is speeding up."
+    },
+    {
+        "image_id": "1412",
+        "caption": "because traffic is stopped."
+    },
+    {
+        "image_id": "1666",
+        "caption": "because traffic is slowing down."
+    },
+    {
+        "image_id": "953",
+        "caption": "because the light is red."
+    },
+    {
+        "image_id": "695",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "1276",
+        "caption": "because the road is clear of traffic."
+    },
+    {
+        "image_id": "35",
+        "caption": "because there are no cars in that lane."
+    },
+    {
+        "image_id": "2102",
+        "caption": "because traffic is speeding up."
+    }
+]
