@@ -3,5 +3,9 @@ video_process/video_process.tar.gz
 video_process/BDDX_Processed
 video_process/BDDX_Test
 
+video_process/conv_base
+video_process/results
+
+Trash
 # Ignore all .pyc files
 *.pyc
